@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+.interior{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    border: 5px solid white;
+    position: absolute;
+}
+
+.div1{
+    background-color: red;
+}
+
+.div2{
+    top: 50px;
+    left: 50px;
+    background-color: orange;
+}
+
+.div3{
+    top: 100px;
+    left: 100px;
+    background-color: yellow;
+}
+
+.div4{
+    top: 150px;
+    left: 150px;
+
+}
+
+.div5{
+    background-color: pink;
+    top: 200px;
+    left: 200px;
+}

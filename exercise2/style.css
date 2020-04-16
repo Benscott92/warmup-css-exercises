@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+.interior{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+
+.div1{
+    background-color: blue;
+}
+
+.div2{
+    background-color: blue;
+    left: 120px;
+}
+
+
+.div5{
+    background-color: red;
+    left: 64px;
+    top: 65px;
+    transform: rotate(45deg);
+}
+
+
+.div4{
+    background-color: blue;
+    top: 120px;
+}
+
+
+.div3{
+    background-color: blue;
+    top: 120px;
+    left: 120px;
+}

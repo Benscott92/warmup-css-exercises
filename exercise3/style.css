@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+.interior{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+
+.div1{
+    background-color: blue;
+}
+
+.div2{
+    background-color: blue;
+    left: 120px;
+}
+
+
+.div5{
+    background-color: red;
+    left: 64px;
+    top: 65px;
+    transform: rotate(45deg);
+    text-align: center;
+}
+.div5::after{
+    content: "\2605";
+    background-color: white;  
+    border-radius: 50%;
+    display: inline-block;
+    transform: rotate(315deg);
+    font-size: 25px;
+    margin: 25px;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+
+.div4{
+    background-color: blue;
+    top: 120px;
+}
+
+
+.div3{
+    background-color: blue;
+    top: 120px;
+    left: 120px;
+}
